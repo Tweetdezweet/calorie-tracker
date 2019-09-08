@@ -9,25 +9,25 @@ class Food_Item_Post_Type {
 
     public function register_post_type() {
         $labels = array(
-            'name'               => _x( 'Food Items', 'post type general name', 'koga-calorytracker' ),
-            'singular_name'      => _x( 'Food Item', 'post type singular name', 'koga-calorytracker' ),
-            'menu_name'          => _x( 'Food Items', 'admin menu', 'koga-calorytracker' ),
-            'name_admin_bar'     => _x( 'Food Item', 'add new on admin bar', 'koga-calorytracker' ),
-            'add_new'            => _x( 'Add New', 'food-item', 'koga-calorytracker' ),
-            'add_new_item'       => __( 'Add New Food Item', 'koga-calorytracker' ),
-            'new_item'           => __( 'New Food Item', 'koga-calorytracker' ),
-            'edit_item'          => __( 'Edit Food Item', 'koga-calorytracker' ),
-            'view_item'          => __( 'View Food Item', 'koga-calorytracker' ),
-            'all_items'          => __( 'All Food Items', 'koga-calorytracker' ),
-            'search_items'       => __( 'Search Food Items', 'koga-calorytracker' ),
-            'parent_item_colon'  => __( 'Parent Food Items:', 'koga-calorytracker' ),
-            'not_found'          => __( 'No food items found.', 'koga-calorytracker' ),
-            'not_found_in_trash' => __( 'No food items found in Trash.', 'koga-calorytracker' )
+            'name'               => _x( 'Food Items', 'post type general name', 'koga-calorietracker' ),
+            'singular_name'      => _x( 'Food Item', 'post type singular name', 'koga-calorietracker' ),
+            'menu_name'          => _x( 'Food Items', 'admin menu', 'koga-calorietracker' ),
+            'name_admin_bar'     => _x( 'Food Item', 'add new on admin bar', 'koga-calorietracker' ),
+            'add_new'            => _x( 'Add New', 'food-item', 'koga-calorietracker' ),
+            'add_new_item'       => __( 'Add New Food Item', 'koga-calorietracker' ),
+            'new_item'           => __( 'New Food Item', 'koga-calorietracker' ),
+            'edit_item'          => __( 'Edit Food Item', 'koga-calorietracker' ),
+            'view_item'          => __( 'View Food Item', 'koga-calorietracker' ),
+            'all_items'          => __( 'All Food Items', 'koga-calorietracker' ),
+            'search_items'       => __( 'Search Food Items', 'koga-calorietracker' ),
+            'parent_item_colon'  => __( 'Parent Food Items:', 'koga-calorietracker' ),
+            'not_found'          => __( 'No food items found.', 'koga-calorietracker' ),
+            'not_found_in_trash' => __( 'No food items found in Trash.', 'koga-calorietracker' )
         );
 
         $args = array(
             'labels'             => $labels,
-            'description'        => __( 'Description.', 'koga-calorytracker' ),
+            'description'        => __( 'Description.', 'koga-calorietracker' ),
             'public'             => true,
             'publicly_queryable' => true,
             'show_ui'            => true,
